@@ -17,7 +17,7 @@ function Main() {
           <Filter setRegion={setRegion} setSearch={setSearch} />
           <CardContainer region={region} search={search} />
         </Route>
-        <Route path="/:country" exact component={Detail} />
+        <Route path="/REST-Countries-API-/:country" exact component={Detail} />
       </Switch>
     </section>
   );

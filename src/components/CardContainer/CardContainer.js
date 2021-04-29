@@ -50,7 +50,7 @@ function CardContainer(props) {
           <Link
             key={country.name}
             to={{
-              pathname: `${country.name}`,
+              pathname: `/REST-Countries-API-/${country.name}`,
               state: { prevPage: props.location.pathname },
             }}
             className="link"
