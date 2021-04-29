@@ -1,0 +1,38 @@
+.card {
+  width: 300px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 3px #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  cursor: pointer;
+
+  > .flag {
+    width: 100%;
+
+    > img {
+      max-width: 100%;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+  }
+
+  > .name {
+    font-size: 18px;
+    font-weight: 800;
+    padding: 1rem;
+  }
+
+  > .information {
+    font-size: 14px;
+    font-weight: 300;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}

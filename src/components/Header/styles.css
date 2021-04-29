@@ -1,0 +1,48 @@
+header {
+  -webkit-box-shadow: 0 3px #f5f3f3;
+          box-shadow: 0 3px #f5f3f3;
+  background-color: #ffffff;
+  height: 5vh;
+  min-height: 50px;
+}
+
+.container {
+  width: 80%;
+  min-width: 300px;
+  height: 100%;
+  margin-inline: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.titleContainer {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  height: 100%;
+}
+
+.theme {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.title {
+  font-size: clamp(0.5rem, 1rem, 2rem);
+  letter-spacing: 1px;
+}
+/*# sourceMappingURL=styles.css.map */
