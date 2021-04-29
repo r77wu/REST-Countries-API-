@@ -12,7 +12,7 @@ function Main() {
   return (
     <section>
       <Switch>
-        <Route path="/" exact>
+        <Route path="/REST-Countries-API-/" exact>
           <Search setSearch={setSearch} />
           <Filter setRegion={setRegion} setSearch={setSearch} />
           <CardContainer region={region} search={search} />
